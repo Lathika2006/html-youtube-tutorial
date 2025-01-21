@@ -15,6 +15,47 @@ In the first project, we will build an Event Page that will cover a wide range o
 
 By the end of this project, you will have a clear understanding of how to structure basic HTML elements and create an appealing Event Page.
 
+## Code 
+```
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <title>Events</title>
+        <link rel="icon" href="img/date.png">
+    </head>
+    <body bgcolor="black" style="color:white">
+        <center>
+        <h1> Upcoming Events 📅</h1>
+        <h4>Connect, explore, and never miss an event that matches your passion</h4>
+        <hr>
+        <p>The goal of this event is to provide a seamless and efficient registration process, enabling participants to easily sign up, select sessions, and access all necessary event details. It aims to bring together a diverse group of individuals, offering opportunities for networking, learning, and collaboration. By streamlining the registration process, the event ensures that attendees can focus on making the most of the experience, while fostering a sense of community and knowledge sharing. The focus is on creating an organized, engaging, and impactful event for everyone involved</p>
+        <img src="img/event1.png">
+        <h1>Photo Gallery</h1>
+        <h2>Free Entry | Free Food</h2>
+        <p>The Photo Gallery for this event showcases memorable moments captured throughout the event, highlighting the energy, interactions, and key activities. It offers attendees a chance to relive special moments, from insightful sessions to networking opportunities, and share the experience with others. The gallery includes photos of speakers, participants, and behind-the-scenes glimpses, reflecting the diverse and vibrant atmosphere of the event. Whether you're revisiting a session you attended or exploring moments you missed, the gallery provides a visual journey that encapsulates the essence of the event</p>
+        </center> 
+        <center>
+            <img src="img/event2.png">
+            <h1>
+                <a href="https://www.amazon.in/?tag=msndeskstdin-21&ref=pd_sl_qe0cmyshs_e&adgrpid=1313918052707697&hvadid=82120145791552&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=149875&hvtargid=kwd-82120809129687:loc-90&hydadcr=5627_2377260&mcid=">Fashion Store</a>
+            </h1>
+            <h2>Free Entry | Free Food</h2>
+            <p>This event celebrates the world of fashion, bringing together designers, brands, and enthusiasts for an exciting showcase of the latest trends and styles. The fashion store event offers a unique opportunity for attendees to explore a curated selection of clothing, accessories, and footwear from both emerging and established designers. With a focus on creativity, innovation, and sustainability, the event provides a platform for fashion lovers to discover new collections, enjoy exclusive discounts, and interact with industry experts. Whether you're looking for the perfect outfit or simply seeking inspiration, this event promises to be a stylish and memorable experience for all</p>
+        </center>
+        <center>
+        <hr>
+        <h1>Contact</h1>
+        <h2>1234567899|sample@gmail.com</h2>
+        <p>6/89,Kamaraj nagar,Tirunelveli</p>
+        </center>
+    </body>
+ </html>
+```
+## Output
+
+![image](https://github.com/user-attachments/assets/3cc53a2d-202f-4e6c-8b8d-8531d2f359e9)
+
+https://event43.tiiny.site/
 ## Project 2: Tables and Forms
 
 In the second project, we will dive deeper into HTML by focusing on two important components: Tables and Forms. Tables are used to present data in a structured format, while forms are essential for user input and data submission. Throughout this project, you will learn to use the following HTML elements:
