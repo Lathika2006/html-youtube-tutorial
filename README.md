@@ -56,6 +56,7 @@ By the end of this project, you will have a clear understanding of how to struct
 ![image](https://github.com/user-attachments/assets/3cc53a2d-202f-4e6c-8b8d-8531d2f359e9)
 
 https://event43.tiiny.site/
+
 ## Project 2: Tables and Forms
 
 In the second project, we will dive deeper into HTML by focusing on two important components: Tables and Forms. Tables are used to present data in a structured format, while forms are essential for user input and data submission. Throughout this project, you will learn to use the following HTML elements:
@@ -68,6 +69,202 @@ In the second project, we will dive deeper into HTML by focusing on two importan
 - Input Tags: `<input>` (various types), `<textarea>`, `<select>`, `<option>`, `<label>`, `<button>`
 
 By the end of this project, you will be proficient in creating tables and forms, and you'll understand how to collect user input and process it.
+
+## Code
+# index.html
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Artistic Trio</title>
+        <link rel="icon" href="emc.png">
+    </head>
+    <center>
+    <body bgcolor="skyblue" style="color:black">
+        <h1>The Artistic Trio🎨</h1>
+        <h4>Training | online couse | Book online</h4>
+        <p>Providing training and accepting orders for Mehndi, Rangoli, and custom artistic designs</p>
+        <hr color="purple">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jrPzaCgGtdk?si=gZWm1BV_g1omkVHt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>We specialize in offering training in the art of Mehndi, Rangoli, and intricate designs, empowering individuals to explore their creativity and master traditional techniques. Alongside training, we also accept custom design orders to bring your vision to life, whether it's for special occasions, festivals, or personal projects. Our dedication to blending tradition with creativity ensures that every design is unique and crafted with precision. Whether you’re looking to learn or seeking bespoke designs, we are here to cater to your artistic needs with professionalism and passion </p>
+        <table border="1" width="500">
+            <center>
+            <tr bgcolor="pink" >
+                <td><h3><center>Offering Courses</center></h3></td>
+                <td><h3><center>Accepting Orders</center></h3></td>
+            </tr>
+            <tr >
+                <td><h3><center>Mehndi</center></h3></td>
+                <td><h3><center>Brides Mehndi</center></h3></td>
+            </tr>
+            <tr >
+                <td><h3><center>Rangoli</center></h3></td>
+                <td><h3><center>Festival Rangoli</center></h3></td>
+            </tr>
+            <tr >
+                <td><h3><center>Paintings</center></h3></td>
+                <td><h3><center>Customise Paintings</center></h3></td>
+            </tr>
+        </center>
+        </table>
+    
+    <p>
+        <h2><a href="register.html">Register Course</a></h2>
+        <h2><a href="book.html">Booking Orders</a></h2>
+        Contact: 
+        <a href="https://www.instagram.com/lami_1018/"><font color="purple">instagram</font></a>
+        <a href="https://www.youtube.com/@goldenprincess7114"><font color="purple">Youtube</font></a>
+    </p>
+    </body>
+    </center>
+</html>
+```
+# Register Course
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Artistic Trio </title>
+        <link rel="icon" href="emc.png">
+    </head>
+    <center>
+    <body bgcolor="skyblue" style="color:black">
+        <h1>The Artistic Trio🎨</h1>
+        <h4>Training | online couse | Book online</h4>
+        <p>Providing training and accepting orders for Mehndi, Rangoli, and custom artistic designs</p>
+        <hr color="purple">
+        
+        <h1>Register Course</h1> 
+        <form>
+            <table>
+                <tr>
+                    <td>Name</td><td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Age</td><td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td><td><input name="gender" type="radio"> Male<input name="gender" type="radio">Female </td>
+                </tr>
+                <tr>
+                    <td>Email</td><td><input type="email"></td>
+                
+                <tr>
+                    <tr>
+                        <td>Address</td><td><input type="text"></td>
+                    
+                    <tr>
+                    <td>Select Course</td>
+                    <td>
+                        <select>
+                            <option>
+                                Mehndi
+                            </option>
+                            <option>
+                                Rangoli
+                            </option>
+                            <option>
+                                Painting
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Experience</td><td><input name="gender" type="radio"> Beginner<input name="gender" type="radio">Intermiate </td>
+
+                </tr>
+                <tr >
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                <tr>
+            </table>
+        </form><br><br><br>
+        <p>
+            
+            Contact
+            <a href="https://www.instagram.com/lami_1018/"><font color="purple">instagram</font></a>
+            <a href="https://www.youtube.com/@goldenprincess7114"><font color="purple">Youtube</font></a>
+            <h5><a href="index.html">Home</a></h5>
+        </p>
+    </center> 
+    </body>
+```
+# Booking Orders
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Artistic Trio </title>
+        <link rel="icon" href="emc.png">
+    </head>
+    <center>
+    <body bgcolor="skyblue" style="color:black">
+        <h1>The Artistic Trio🎨</h1>
+        <h4>Training | online couse | Book online</h4>
+        <p>Providing training and accepting orders for Mehndi, Rangoli, and custom artistic designs</p>
+        <hr color="purple">
+        
+        <h1>Booking Orders</h1> 
+        <form>
+            <table>
+                <tr>
+                    <td>Name</td><td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Age</td><td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td><td><input name="gender" type="radio"> Male<input name="gender" type="radio">Female </td>
+                </tr>
+                <tr>
+                    <td>Email</td><td><input type="email"></td>
+                
+                <tr>
+                    <tr>
+                        <td>Address</td><td><input type="text"></td>
+                    
+                    <tr>
+                    <td>Select </td>
+                    <td>
+                        <select>
+                            <option>
+                                Brides Mehndi
+                            </option>
+                            <option>
+                                Rangoli
+                            </option>
+                            <option>
+                                Painting
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Prefered Date</td><td><input type="date"></td>
+
+                </tr>
+                <tr >
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                <tr>
+            </table>
+        </form><br><br><br>
+        <p>
+            
+            Contact
+            <a href="https://www.instagram.com/lami_1018/"><font color="purple">instagram</font></a>
+            <a href="https://www.youtube.com/@goldenprincess7114"><font color="purple">Youtube</font></a>
+            <h5><a href="index.html">Home</a></h5>
+        </p>
+    </center> 
+    </body>
+```
+## Output
+![image](https://github.com/user-attachments/assets/26941299-ff22-4a29-bf9c-205477377ef8)
+
+![image](https://github.com/user-attachments/assets/49f18373-ab25-4da4-8c30-f075787a1af5)
+
+![image](https://github.com/user-attachments/assets/9160c5da-0b8a-491a-b9ab-500213dc0699)
 
 ## How to Use this Repository
 
